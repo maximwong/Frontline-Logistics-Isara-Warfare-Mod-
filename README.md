@@ -1,2 +1,2 @@
-# Frontline-Logistics-Isara-Warfare-Mod-
-mods for Frontline Logistics:Isara Warfare
+# Frontline-Logistics-Isarian-Warfare-Mod-
+mods for Frontline Logistics:Isarian Warfare
