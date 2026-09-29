@@ -167,7 +167,7 @@ LADA/Toyota — небольшой набор; у каждого типа B1000/
 | 文档 | 语言 |
 |---|---|
 | [开发手册 Developer Guide (English)](docs/DEVELOPMENT-GUIDE.en.md) | English |
-| [开发手册（中文原版）](docs/DEVELOPMENT-GUIDE.md) | 中文 |
+| [开发手册（中文原版）](docs/DEVELOPMENT-GUIDE.cn.md) | 中文 |
 
 开发手册涵盖：构建流程、源码结构、**如何新增载具**、五条刷新规则、
 随车物资系统、校验矩阵、贴图流水线、发布流程，以及
