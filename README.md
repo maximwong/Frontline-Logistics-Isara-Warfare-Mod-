@@ -12,7 +12,7 @@
 
 | 变更 | 说明 |
 |---|---|
-| **新增载具：五十铃ELF4冷藏车** | 3.5 吨级平头冷藏车，配用**全新绘制**的八方向贴图（格 32×24）。价位、载客、载重与 IFA W50 同族，另加装一台「**制冷机**」部件。 |
+| **新增载具：五十铃ELF4冷藏车** | **载具总数 43 台 → 44 台。** 3.5 吨级平头冷藏车，配用**全新绘制**的八方向贴图（格 32×24）。价位、载客、载重与 IFA W50 同族，另加装一台「**制冷机**」部件。 |
 | **冷链规则** | 车厢里的鲜食在「**制冷机完好（≥ 70%）+ 引擎开启 + 油箱有油**」时保持冷冻、不会变质；**打坏制冷机（< 70%）/ 熄火 / 断油**立即停止制冷，货物按正常速度腐坏。**卸货后不再受保护**。新刷出的冷藏车制冷机默认完好（想看失效效果，把它打坏即可）。 |
 | **制冷耗油** | 制冷机由本车引擎驱动、与原车共用一箱燃油，按**怠速油耗**持续扣油 —— 停着不动也在烧，油烧完就自动停机。 |
 | **加入民用轻型载具池** | 每存档 **至少 1 台、至多 3 台**（1 台保底 + 池内抽取）。配额写进存档，**读档不会重刷、也不会重置**。数量可配置：`[Pool] IsuzuMaxPerMatch`，默认 **3**，**0 = 完全不刷**（上限 4）。 |
@@ -27,7 +27,7 @@
 
 | Change | Notes |
 |---|---|
-| **New vehicle — ISUZU ELF4 reefer truck** | 3.5 t cab-over refrigerated box truck with **brand-new** eight-direction artwork (32×24 cells). Price, passengers and cargo are the W50 family values, plus one extra part: the **reefer unit**. |
+| **New vehicle — ISUZU ELF4 reefer truck** | **Vehicle count 43 → 44.** 3.5 t cab-over refrigerated box truck with **brand-new** eight-direction artwork (32×24 cells). Price, passengers and cargo are the W50 family values, plus one extra part: the **reefer unit**. |
 | **Cold-chain rule** | Food in the box stays frozen while the **reefer unit is intact (≥ 70 %) AND the engine is ON AND there is fuel**. A broken unit (< 70 %), a switched-off engine or an empty tank stops the cooling and the cargo spoils at the normal rate. **Unloading ends the protection.** Freshly spawned reefers keep an intact unit — wreck it if you want to see the failure path. |
 | **The fridge burns fuel** | Driven by the truck's own engine from the same tank, at the **idle** rate — it keeps burning while parked, and stops by itself when the tank runs dry. |
 | **Joins the civilian light pool** | **1 to 3 per savegame** (one guaranteed + pool draws). The quota is written into the savegame, so **reloading never re-spawns or resets it**. Config: `[Pool] IsuzuMaxPerMatch`, default **3**, **0 = never spawn** (capped at 4). |
@@ -42,7 +42,7 @@
 
 | Изменение | Описание |
 |---|---|
-| **Новая машина — рефрижератор ISUZU ELF4** | 3,5-тонный грузовик с изотермическим фургоном и **полностью новой** графикой восьми направлений (ячейки 32×24). Цена, пассажиры и груз — как у семейства W50, плюс отдельная деталь — **холодильная установка**. |
+| **Новая машина — рефрижератор ISUZU ELF4** | **Всего машин: 43 → 44.** 3,5-тонный грузовик с изотермическим фургоном и **полностью новой** графикой восьми направлений (ячейки 32×24). Цена, пассажиры и груз — как у семейства W50, плюс отдельная деталь — **холодильная установка**. |
 | **Холодовая цепь** | Продукты в фургоне не портятся, пока **установка цела (≥ 70 %), двигатель включён и в баке есть топливо**. Разбитая установка (< 70 %), выключенный двигатель или пустой бак прекращают охлаждение — груз портится с обычной скоростью. **После разгрузки защита прекращается.** У новых рефрижераторов установка целая; разбейте её, если хотите увидеть отказ. |
 | **Холодильник расходует топливо** | Он работает от двигателя машины и берёт топливо из общего бака по **расходу на холостом ходу** — расход идёт и на стоянке, а когда бак опустеет, охлаждение прекратится само. |
 | **Входит в пул «гражданские лёгкие»** | **От 1 до 3 на сохранение** (одна гарантированная + выпадения из пула). Квота хранится в сохранении: **перезагрузка не создаёт новых и не сбрасывает счётчик**. Настройка: `[Pool] IsuzuMaxPerMatch`, по умолчанию **3**, **0 = не появляется** (максимум 4). |
