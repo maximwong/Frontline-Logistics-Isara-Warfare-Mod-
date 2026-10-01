@@ -1,4 +1,4 @@
-# Frontline Vehicles v5.70.6 — 新增内容 / What's New / Что нового
+# Frontline Vehicles v5.70.7 — 新增内容 / What's New / Что нового
 
 > 本包含此前「超级机械化 MOD」的全部内容并大幅扩展。
 > Contains everything the earlier "Super Mechanization" MOD had, greatly expanded.
@@ -6,7 +6,7 @@
 
 ---
 
-## 本版新增（v5.68.2 → v5.70.6）/ What's new since v5.68.2 / Что нового с v5.68.2
+## 本版新增（v5.68.2 → v5.70.7）/ What's new since v5.68.2 / Что нового с v5.68.2
 
 ### 中文
 
@@ -19,7 +19,7 @@
 | **【冷藏中】标记** | 正在冷藏的食物，物品说明里多一行 **【冷藏中】**；货物面板中对应行显示**原版雪花图标**。制冷停止或食物离开冷藏车，标记自动消失。 |
 | **默认不自动卸货** | 冷藏车开进基地 / 仓库范围时**不会自动卸货**，冷链不会被打断；可在单位面板用原版「自动卸货」勾选框逐车改回。`[Reefer] DisableAutoUnload` |
 | **停车 / 下车不熄火** | 游戏在停车、下车时会自己熄火；本 MOD 的冷藏车会**自动重新点火**，保住制冷；手动关火依然有效。`[Reefer] KeepEngineOnPark`，false = 恢复原版行为。 |
-| **HUD 冷藏状态行** | 屏幕左上角显示每台活跃冷藏车的状态：是否冷冻、制冷机耐久、油量、引擎开关。 |
+| **屏幕上的冷藏提示已全部移除（v5.70.7）** | 按用户要求，**左上角那行冷藏状态文字**（形如 `ISUZU ELF4 [FROZEN] fridge 100% engine ON fuel 69.8L keep 8`）与**车顶悬浮状态牌**已**彻底删除**，游戏画面上不再有任何本 MOD 的冷藏指示。物品说明里的 **【冷藏中】** 标记与货物面板行上的**原版雪花图标**保持不变，日志里的 `[Reefer]` 记录也一并保留。 |
 | **保底刷新更可靠** | 保底那台冷藏车的落点改为三级降级：**配置的城镇民用建筑 → 地图上任何民用建筑 → 道路兜底**，所以任何地图都保证「至少 1 台」。同一进程里连开两局时，上一局占用的格子不再影响新局。 |
 | **其它修复** | 自动卸货竞态；食物离开冷藏车后【冷藏中】标记残留；车辆与部件文案改写为真实车型（五十铃 ELF 第四代、ISUZU 4JG2 引擎、MSB-5S 变速箱、DENSO 制冷机组）。 |
 
@@ -34,7 +34,7 @@
 | **【冷藏中】 tag** | Refrigerated food carries the tag on its item description, and the matching row in the cargo panel shows the **stock snowflake icon**. The tag disappears when cooling stops or the food leaves the truck. |
 | **No auto-unload by default** | A reefer does **not** dump its cargo when it drives into a base / storage area. Flip the stock auto-unload checkbox in the unit panel per truck to change it. `[Reefer] DisableAutoUnload` |
 | **Parking / dismount no longer kills the fridge** | The game switches the engine off by itself when the truck parks; our reefers **re-start it**, and a manual shutdown still sticks. `[Reefer] KeepEngineOnPark`, false = stock behaviour. |
-| **Reefer HUD line** | Top-left corner shows each active reefer: frozen or not, unit wear, fuel, engine switch. |
+| **All on-screen reefer indicators removed (v5.70.7)** | At the user's request the **top-left status line** (`ISUZU ELF4 [FROZEN] fridge 100% engine ON fuel 69.8L keep 8`-style) and the **floating roof plaque** have been **deleted outright** — nothing this MOD draws about refrigeration is left on screen. The 【冷藏中】 tag on the item description and the **stock snowflake icon** on the cargo-panel row are unchanged, and the `[Reefer]` log lines are kept. |
 | **More reliable guaranteed spawn** | The guaranteed truck's anchor degrades in three steps: **configured town/civilian buildings → any civilian building → road tile**, so "at least 1 per savegame" holds on any map. A second new game in the same process no longer inherits the previous game's occupied tiles. |
 | **Other fixes** | Auto-unload race; the 【冷藏中】 tag left behind after food left the truck; text rewritten for the real vehicle (ISUZU ELF 4th gen, ISUZU 4JG2 engine, MSB-5S gearbox, DENSO reefer set). |
 
@@ -49,7 +49,7 @@
 | **Метка 【冷藏中】** | У охлаждаемых продуктов в описании предмета появляется строка **【冷藏中】**, а в панели груза у соответствующей строки — **штатный значок-снежинка**. Метка снимается, когда охлаждение прекращается или груз покидает машину. |
 | **Автовыгрузки по умолчанию нет** | Рефрижератор **не выгружает** груз при въезде на базу / склад. Вернуть можно штатной галочкой «автовыгрузка» в панели юнита для каждой машины. `[Reefer] DisableAutoUnload` |
 | **Стоянка и высадка больше не глушат холодильник** | Игра сама глушит двигатель при парковке, наши рефрижераторы **заводят его снова**; ручное выключение по-прежнему работает. `[Reefer] KeepEngineOnPark`, false = как в оригинале. |
-| **Строка состояния на HUD** | В левом верхнем углу — состояние каждого активного рефрижератора: охлаждает или нет, износ установки, топливо, двигатель. |
+| **Все экранные индикаторы рефрижератора убраны (v5.70.7)** | По просьбе пользователя **строка состояния в левом верхнем углу** (вида `ISUZU ELF4 [FROZEN] fridge 100% engine ON fuel 69.8L keep 8`) и **парящая табличка над машиной** **полностью удалены** — мод больше ничего не рисует на экране про охлаждение. Метка 【冷藏中】 в описании предмета и **штатный значок-снежинка** в строке панели груза остались; строки лога `[Reefer]` также сохранены. |
 | **Надёжная гарантированная машина** | Точка привязки гарантированной машины деградирует в три шага: **настроенные городские/гражданские здания → любое гражданское здание → клетка дороги**, поэтому «минимум 1 на сохранение» соблюдается на любой карте. Вторая новая игра в том же процессе больше не наследует занятые клетки предыдущей. |
 | **Прочие исправления** | Гонка при автовыгрузке; остававшаяся метка 【冷藏中】 после выгрузки; тексты переписаны под реальную машину (ISUZU ELF 4-го поколения, двигатель ISUZU 4JG2, КПП MSB-5S, агрегат DENSO). |
 
@@ -232,8 +232,8 @@ LADA/Toyota — небольшой набор; у каждого типа B1000/
 
 安装包在 **Releases** 里，不在仓库中（避免把二进制塞进版本库）：
 
-* **最新版 Latest — [Frontline Vehicles v5.70.6](https://github.com/maximwong/Frontline-Logistics-Isara-Warfare-Mod-/releases/tag/v5.70.6)**（`FrontlineVehicles-v5.70.6.zip`）
-* **全部版本 All releases**（含可回滚的上一版 **v5.68.2**）：
+* **最新版 Latest — [Frontline Vehicles v5.70.7](https://github.com/maximwong/Frontline-Logistics-Isara-Warfare-Mod-/releases/tag/v5.70.7)**（`FrontlineVehicles-v5.70.7.zip`）
+* **全部版本 All releases**（含可回滚的 **v5.70.6** 与 **v5.68.2**）：
   **https://github.com/maximwong/Frontline-Logistics-Isara-Warfare-Mod-/releases**
 
 ## 许可 / License
